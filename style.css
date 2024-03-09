@@ -78,7 +78,7 @@ a {
 @media (max-width: 480px) {
   .circle {
     width: 400vw;
-    height: 400vw;
+    height: 370vw;
     transform: translate(0, -300vw);
   }
 }
