@@ -66,18 +66,19 @@ a {
   border-radius: 10px;
 }
 
-@media (max-width: 700px) {
-  .circle {
-    width: 235vw;
-    height: 235vw;
-    transform: translate(0, -185vw);
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .circle {
     width: 300vw;
     height: 300vw;
     transform: translate(0, -250vw);
+  }
+}
+
+/* Additional media queries for other screen sizes if needed */
+@media (max-width: 480px) {
+  .circle {
+    width: 400vw;
+    height: 400vw;
+    transform: translate(0, -300vw);
   }
 }
