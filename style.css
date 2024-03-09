@@ -65,3 +65,19 @@ a {
   padding: 0.25em 0.5em;
   border-radius: 10px;
 }
+
+@media (max-width: 700px) {
+  .circle {
+    width: 235vw;
+    height: 235vw;
+    transform: translate(0, -185vw);
+  }
+}
+
+@media (max-width: 600px) {
+  .circle {
+    width: 300vw;
+    height: 300vw;
+    transform: translate(0, -250vw);
+  }
+}
