@@ -1,5 +1,5 @@
 body {
-  background-color: #6d562c;
+  background-color: #008a90;
   min-width: 100vw;
   min-height: 100vh;
 }
@@ -19,7 +19,7 @@ body {
   height: 195vw;
   transform: translate(0, -180vw);
   border-radius: 50%;
-  background: #2e281f;
+  background: #357db6;
 }
 
 .header > img {
@@ -60,7 +60,7 @@ body {
 
 a {
   text-decoration: none;
-  background-color: #82713e;
+  background-color: #7ed486;
   color: black;
   padding: 0.25em 0.5em;
   border-radius: 10px;
