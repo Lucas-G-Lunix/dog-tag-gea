@@ -66,19 +66,26 @@ a {
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .circle {
-    width: 300vw;
-    height: 290vw;
-    transform: translate(0, -250vw);
+    transform: translate(0, -160vw);
   }
 }
 
-/* Additional media queries for other screen sizes if needed */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .circle {
-    width: 400vw;
-    height: 365vw;
-    transform: translate(0, -300vw);
+    transform: translate(0, -150vw);
+  }
+}
+
+@media (max-width: 650px) {
+  .circle {
+    transform: translate(0, -140vw);
+  }
+}
+
+@media (max-width: 510px) {
+  .circle {
+    transform: translate(0, -130vw);
   }
 }
